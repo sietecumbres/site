@@ -1,0 +1,6 @@
+run bundle install
+
+
+then run the server
+
+ruby site.rb
