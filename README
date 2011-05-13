@@ -1,5 +1,6 @@
-run bundle install
+run gem install bundler --no-ri --no-rdoc
 
+then run bundle install
 
 then run the server
 
