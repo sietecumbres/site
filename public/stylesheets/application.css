@@ -76,8 +76,7 @@ ul {
 	width: 310px;
 }
 .title {
-	background: url("../images/bg_titles.png") no-repeat scroll 0 0 transparent;
-  float: left;
+	float: left;
   height: 50px;
   text-align: center;
   width: 100%;
@@ -90,7 +89,7 @@ ul {
 }
 /* CONTACT */
 #contact-form {
-	background: none repeat scroll 0 0 #CCCCCC;
+	background: url("../images/bg_boxes1.png") no-repeat scroll 0 0 transparent;
   float: left;
   height: 550px;
   margin-right: 30px;
@@ -99,14 +98,14 @@ ul {
 }
 /* CONTACT */
 #who-we-are {
-	background: none repeat scroll 0 0 #CCCCCC;
+	background: url("../images/bg_boxes1.png") no-repeat scroll 0 0 transparent;
   float: left;
   height: 550px;
   margin-top: 20px;
   width: 465px;
 }
 #who-we-are li {
-	background: url("../images/bg_who_we_are.png") no-repeat scroll 0 0 transparent;
+	background: url("../images/bg_boxes2.png") no-repeat scroll 0 0 transparent;
   float: left;
   height: 100px;
   width: 100%;
@@ -158,14 +157,14 @@ ul {
   width: 330px;
 }
 .descripcion h3 {
-	color: #FFFFFF;
+	color: #000000;
   font-size: 16px;
   font-weight: lighter;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
 }
 .descripcion p {
-	color: #FFFFFF;
+	color: #000000;
   font-size: 13px;
   font-weight: lighter;
 }
