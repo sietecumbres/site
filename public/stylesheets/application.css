@@ -47,7 +47,7 @@ ul {
 }
 /* SLIDER */
 #slider {
-	border: 1px none #F4F4F4;
+	background: url("../images/slider.png") no-repeat scroll 0 0 transparent;
   float: left;
   height: 302px;
   width: 100%;
