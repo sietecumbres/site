@@ -1,2 +1,2 @@
-require 'sietecumbres'
+require 'site'
 run Sinatra::Application
