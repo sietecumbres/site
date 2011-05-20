@@ -16,6 +16,13 @@ h1 {
 ul {
 	list-style: none outside none;
 }
+a {
+	color: #F58220;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
 #container {
 	width: 960px;
 	margin: 0 auto;
@@ -77,7 +84,7 @@ ul {
 }
 .title {
 	float: left;
-  height: 50px;
+  height: 67px;
   text-align: center;
   width: 100%;
 }
@@ -85,11 +92,12 @@ ul {
 	color: #FFFFFF;
   font-size: 30px;
   font-weight: lighter;
-  margin-top: 10px;
+  margin-top: 20px;
+  text-shadow: 1.3px -1px 0 #000000;
 }
 /* CONTACT */
 #contact-form {
-	background: url("../images/bg_boxes1.png") no-repeat scroll 0 0 transparent;
+	background: url("../images/bg_contacto.png") no-repeat scroll 0 0 transparent;
   float: left;
   height: 550px;
   margin-right: 30px;
@@ -98,16 +106,15 @@ ul {
 }
 /* CONTACT */
 #who-we-are {
-	background: url("../images/bg_boxes1.png") no-repeat scroll 0 0 transparent;
+	background: url("../images/bg_who_we_are.png") no-repeat scroll 0 0 transparent;
   float: left;
   height: 550px;
   margin-top: 20px;
   width: 465px;
 }
 #who-we-are li {
-	background: url("../images/bg_boxes2.png") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 100px;
+	float: left;
+  height: 94px;
   width: 100%;
 }
 .marco .foto {
@@ -115,7 +122,7 @@ ul {
   float: left;
   height: 80px;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 6px;
   width: 71px;
 }
 .juan .foto {
@@ -123,7 +130,7 @@ ul {
 	float: left;
 	height: 80px;
 	margin-left: 20px;
-	margin-top: 10px;
+	margin-top: 6px;
 	width: 71px;
 }
 .andres .foto {
@@ -131,7 +138,7 @@ ul {
   float: left;
   height: 80px;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 6px;
   width: 71px;
 }
 .fernando .foto {
@@ -139,7 +146,7 @@ ul {
   float: left;
   height: 80px;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 6px;
   width: 71px;
 }
 .alejandro .foto {
@@ -147,7 +154,7 @@ ul {
   float: left;
   height: 80px;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 6px;
   width: 71px;
 }
 .descripcion {
@@ -162,9 +169,11 @@ ul {
   font-weight: lighter;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
+  text-shadow: 1px 1px 0 #FFFFFF;
 }
 .descripcion p {
 	color: #000000;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: lighter;
+  text-shadow: 1px 1px 0 #FFFFFF;
 }
