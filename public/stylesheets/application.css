@@ -108,14 +108,15 @@ a {
 	background: url("../images/bg_separator.png") repeat-y scroll right 0 transparent;
   float: left;
   height: 250px;
-  margin-left: 25px;
-  margin-top: 30px;
+  margin-left: 35px;
+  margin-top: 50px;
   padding-right: 10px;
   padding-top: 100px;
   width: 15%;
 }
 .names p {
-	float: left;
+	color: #747679;
+  float: left;
   font-size: 15px;
   padding-top: 25px;
   text-align: right;
@@ -125,7 +126,7 @@ a {
 .form {
 	float: left;
   margin-left: 20px;
-  margin-top: 30px;
+  margin-top: 50px;
   width: 60%;
 }
 .form p {
@@ -158,26 +159,42 @@ a {
   width: 37%;
 }
 .form input {
-	border: 1px solid #F58220;
+	-moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #EEEEEE;
+  border-color: #BEBEBE #FFFFFF #FFFFFF #BEBEBE;
+  border-style: solid;
+  border-width: 1px;
   float: left;
   height: 30px;
-  width: 60%;
+  width: 100%;
 }
 .form textarea {
-	border: 1px solid #F58220;
+	-moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background-color: #EEEEEE;
+  border-color: #BEBEBE #FFFFFF #FFFFFF #BEBEBE;
+  border-style: solid;
+  border-width: 1px;
   float: left;
   height: 80px;
-  width: 60%;
+  width: 100%;
 }
 .form .field {
 	float: left;
   margin-top: 10px;
-  width: 87%;
+  width: 100%;
 }
 .form .textarea {
 	float: left;
   margin-top: 10px;
-  width: 87%;
+  width: 100%;
 }
 
 .contactenos_button {
