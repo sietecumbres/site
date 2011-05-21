@@ -9,6 +9,22 @@
       .title
         %h1
           CONTACTO
+      .names    
+        %p Nombre:
+        %p E-Mail:
+        %p Comentario:
+      .form
+        %form#contactenos.contactenos{:action => "index.html", :method => "post"}  
+          .text
+            %h2 Comunícate con nosotros
+            %p Por favor déjanos tus comentarios o sugerencias, serán usadas para mejorar.
+          .field
+            %input.contactenos_field{:name => "name", :type => "text"}/
+          .field
+            %input.contactenos_field{:name => "email", :type => "text"}/
+          .textarea
+            %textarea.contactenos_textarea{:name => "text"}
+          %input.contactenos_button{:onmouseout => "javascript:chooseButton(this, \'contactenos_button\')", :onmouseover => "javascript:chooseButton(this, \'contactenos_button_hover\')", :type => "submit", :value => ""}/
     #who-we-are
       .title
         %h1

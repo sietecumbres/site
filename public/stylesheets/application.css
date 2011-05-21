@@ -104,6 +104,101 @@ a {
   margin-top: 20px;
   width: 465px;
 }
+.names {
+	background: url("../images/bg_separator.png") repeat-y scroll right 0 transparent;
+  float: left;
+  height: 250px;
+  margin-left: 25px;
+  margin-top: 30px;
+  padding-right: 10px;
+  padding-top: 100px;
+  width: 15%;
+}
+.names p {
+	float: left;
+  font-size: 15px;
+  padding-top: 25px;
+  text-align: right;
+  text-shadow: 0 1px 0 #FFFFFF;
+  width: 100%;
+}
+.form {
+	float: left;
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 60%;
+}
+.form p {
+	color: #000000;
+  font-size: 14px;
+  font-weight: lighter;
+  text-shadow: 1px 1px 0 #FFFFFF;
+}
+.form .text {
+	float: left;
+  margin-bottom: 25px;
+  width: 87%;
+}
+.form .text h2 {
+	color: #000000;
+  font-size: 24px;
+  font-weight: lighter;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 0 #FFFFFF;
+}
+.form .text p {
+	font-size: 14px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+  text-align: justify;
+  width: 100%;
+}
+.form p {
+	float: left;
+  width: 37%;
+}
+.form input {
+	border: 1px solid #F58220;
+  float: left;
+  height: 30px;
+  width: 60%;
+}
+.form textarea {
+	border: 1px solid #F58220;
+  float: left;
+  height: 80px;
+  width: 60%;
+}
+.form .field {
+	float: left;
+  margin-top: 10px;
+  width: 87%;
+}
+.form .textarea {
+	float: left;
+  margin-top: 10px;
+  width: 87%;
+}
+
+.contactenos_button {
+	background: url("../images/btn_send.png") no-repeat scroll left top transparent;
+  border: 0 none !important;
+  display: block;
+  float: right !important;
+  margin-right: 73px;
+  margin-top: 20px;
+  width: 150px !important;
+}
+.contactenos_button_hover {
+	background: url("../images/btn_send.png") no-repeat scroll left top transparent;
+	background-position:0 -30px;
+  border: 0 none !important;
+  display: block;
+  float: right !important;
+  margin-right: 73px;
+  margin-top: 20px;
+  width: 150px !important;
+}
 /* CONTACT */
 #who-we-are {
 	background: url("../images/bg_who_we_are.png") no-repeat scroll 0 0 transparent;
