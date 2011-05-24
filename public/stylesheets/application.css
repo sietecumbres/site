@@ -229,6 +229,7 @@ a {
   height: 94px;
   width: 100%;
 }
+/* ----------------------- MARCO -----------------------------*/
 .marco .front {
 	background: url("../images/pictures/marco_front.jpg") no-repeat scroll 0 0 transparent;
   float: left;
@@ -245,15 +246,73 @@ a {
   margin-top: 6px;
   width: 71px;
 }
-.juan .foto {
-	background: url("../images/pictures/juan_front.jpg") no-repeat scroll 0 0 transparent;
-	float: left;
-	height: 80px;
-	margin-left: 20px;
-	margin-top: 6px;
-	width: 71px;
+.marco .right {
+	background: url("../images/pictures/marco_right.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
 }
-.andres .foto {
+.marco .up {
+	background: url("../images/pictures/marco_up.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.marco .down {
+	background: url("../images/pictures/marco_down.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+/* ----------------------- JUAN -----------------------------*/
+.juan .front {
+	background: url("../images/pictures/juan_front.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.juan .left {
+	background: url("../images/pictures/juan_left.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.juan .right {
+	background: url("../images/pictures/juan_right.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.juan .up {
+	background: url("../images/pictures/juan_up.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.juan .down {
+	background: url("../images/pictures/juan_down.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+/* ----------------------- GORDO -----------------------------*/
+.gordo .front {
 	background: url("../images/pictures/gordo_front.jpg") no-repeat scroll 0 -10px transparent;
   float: left;
   height: 80px;
@@ -261,6 +320,39 @@ a {
   margin-top: 6px;
   width: 71px;
 }
+.gordo .left {
+	background: url("../images/pictures/gordo_left.jpg") no-repeat scroll 0 -10px transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.gordo .right {
+	background: url("../images/pictures/gordo_right.jpg") no-repeat scroll 0 -10px transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.gordo .up {
+	background: url("../images/pictures/gordo_up.jpg") no-repeat scroll 0 -10px transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.gordo .down {
+	background: url("../images/pictures/gordo_down.jpg") no-repeat scroll 0 -10px transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+/* -------------------------- FERCHO ---------------------------- */
 .fernando .foto {
 	background: url("../images/fernando.jpg") no-repeat scroll 0 0 transparent;
   float: left;
@@ -269,7 +361,8 @@ a {
   margin-top: 6px;
   width: 71px;
 }
-.alejandro .foto {
+/* ----------------------- ALEJO -----------------------------*/
+.alejo .front {
 	background: url("../images/pictures/alejo_front.jpg") no-repeat scroll 0 0 transparent;
   float: left;
   height: 80px;
@@ -277,6 +370,39 @@ a {
   margin-top: 6px;
   width: 71px;
 }
+.alejo .left {
+	background: url("../images/pictures/alejo_left.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.alejo .right {
+	background: url("../images/pictures/alejo_right.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.alejo .up {
+	background: url("../images/pictures/alejo_up.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.alejo .down {
+	background: url("../images/pictures/alejo_down.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+	
 .descripcion {
 	float: left;
   margin-left: 20px;
