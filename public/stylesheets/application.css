@@ -229,8 +229,16 @@ a {
   height: 94px;
   width: 100%;
 }
-.marco .foto {
-	background: url("../images/marco.jpg") no-repeat scroll 0 0 transparent;
+.marco .front {
+	background: url("../images/pictures/marco_front.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.marco .left {
+	background: url("../images/pictures/marco_left.jpg") no-repeat scroll 0 0 transparent;
   float: left;
   height: 80px;
   margin-left: 20px;
@@ -238,7 +246,7 @@ a {
   width: 71px;
 }
 .juan .foto {
-	background: url("../images/juan.jpg") no-repeat scroll 0 0 transparent;
+	background: url("../images/pictures/juan_front.jpg") no-repeat scroll 0 0 transparent;
 	float: left;
 	height: 80px;
 	margin-left: 20px;
@@ -246,7 +254,7 @@ a {
 	width: 71px;
 }
 .andres .foto {
-	background: url("../images/andres.jpg") no-repeat scroll 0 0 transparent;
+	background: url("../images/pictures/gordo_front.jpg") no-repeat scroll 0 -10px transparent;
   float: left;
   height: 80px;
   margin-left: 20px;
@@ -262,7 +270,7 @@ a {
   width: 71px;
 }
 .alejandro .foto {
-	background: url("../images/alejandro.jpg") no-repeat scroll 0 0 transparent;
+	background: url("../images/pictures/alejo_front.jpg") no-repeat scroll 0 0 transparent;
   float: left;
   height: 80px;
   margin-left: 20px;
