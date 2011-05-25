@@ -270,6 +270,38 @@ a {
   margin-top: 6px;
   width: 71px;
 }
+.marco .top_left {
+	background: url("../images/pictures/marco_top_left.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.marco .top_right {
+	background: url("../images/pictures/marco_top_right.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.marco .down_left {
+	background: url("../images/pictures/marco_down_left.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.marco .down_right {
+	background: url("../images/pictures/marco_down_right.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
 /* ----------------------- JUAN -----------------------------*/
 .juan .front {
 	background: url("../images/pictures/juan_front.jpg") no-repeat scroll 0 0 transparent;
@@ -311,6 +343,38 @@ a {
   margin-top: 6px;
   width: 71px;
 }
+.juan .top_left {
+	background: url("../images/pictures/juan_top_left.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.juan .top_right {
+	background: url("../images/pictures/juan_top_right.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.juan .down_left {
+	background: url("../images/pictures/juan_down_left.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.juan .down_right {
+	background: url("../images/pictures/juan_down_right.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
 /* ----------------------- GORDO -----------------------------*/
 .gordo .front {
 	background: url("../images/pictures/gordo_front.jpg") no-repeat scroll 0 -10px transparent;
@@ -346,6 +410,38 @@ a {
 }
 .gordo .down {
 	background: url("../images/pictures/gordo_down.jpg") no-repeat scroll 0 -10px transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.gordo .top_left {
+	background: url("../images/pictures/gordo_top_left.jpg") no-repeat scroll 0 -10px transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.gordo .top_right {
+	background: url("../images/pictures/gordo_top_right.jpg") no-repeat scroll 0 -10px transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.gordo .down_left {
+	background: url("../images/pictures/gordo_down_left.jpg") no-repeat scroll 0 -10px transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.gordo .down_right {
+	background: url("../images/pictures/gordo_down_right.jpg") no-repeat scroll 0 -10px transparent;
   float: left;
   height: 80px;
   margin-left: 20px;
@@ -396,6 +492,38 @@ a {
 }
 .alejo .down {
 	background: url("../images/pictures/alejo_down.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.alejo .top_left {
+	background: url("../images/pictures/alejo_top_left.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.alejo .top_right {
+	background: url("../images/pictures/alejo_top_right.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.alejo .down_left {
+	background: url("../images/pictures/alejo_down_left.jpg") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 80px;
+  margin-left: 20px;
+  margin-top: 6px;
+  width: 71px;
+}
+.alejo .down_right {
+	background: url("../images/pictures/alejo_down_right.jpg") no-repeat scroll 0 0 transparent;
   float: left;
   height: 80px;
   margin-left: 20px;
