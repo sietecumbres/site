@@ -1,3 +1,4 @@
+/*
 body {
 	background: url("../images/en_construccion.png") no-repeat scroll center center transparent;
   color: #000000;
@@ -8,16 +9,16 @@ body {
   padding: 0;
   width: 900px;
 }
-/*
+*/
 body {
-	background: url("../images/header.png") no-repeat scroll center top transparent;
-	margin:0;
-	padding:0;
+	/* background: url("../images/header.png") no-repeat scroll center top transparent; */
+	background: none repeat scroll 0 0 #E8EAE1;
+	color: #000000;
 	font-family: Zag Regular,verdana,sans-serif;
 	font-size: 13px;
-	color: #000000;
+	margin: 0;
+	padding: 0;
 }
-*/
 * {
 	margin:0;
 	padding:0;
@@ -42,14 +43,30 @@ a {
 }
 /* HEADER */
 #header {
-	padding: 15px;
-	margin: 0 auto;
-	height: 150px;
+	background: url("../images/bg_header.png") no-repeat scroll center bottom transparent;
+  height: 170px;
+  margin: 0 auto;
+  padding: 15px 15px 0;
 }
 #header .logo {
+	background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 150px;
+  padding-right: 10px;
+  width: 21%;
+}
+#header .slogan {
 	float: left;
-	height: 150px;
-	width: 187px;
+  margin-top: 120px;
+  width: 75%;
+}
+#header .slogan h2 {
+	color: #F58220;
+  font-size: 26px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-align: right;
 }
 #header h1.header {
 	float: left;
@@ -61,12 +78,12 @@ a {
 /* CONTENT */
 #content {
 	margin: 0 auto;
-  padding: 20px 0 0;
+  padding: 0 0 0;
   width: 960px;
 }
 /* SLIDER */
 #slider {
-	background: url("../images/slider.png") no-repeat scroll 0 0 transparent;
+	/* background: url("../images/slider.png") no-repeat scroll 0 0 transparent; */
   float: left;
   height: 302px;
   width: 100%;
@@ -250,6 +267,7 @@ a {
   margin-top: 6px;
   width: 71px;
 }
+/*
 .marco .left {
 	background: url("../images/pictures/marco_left.jpg") no-repeat scroll 0 0 transparent;
   float: left;
@@ -314,6 +332,7 @@ a {
   margin-top: 6px;
   width: 71px;
 }
+*/
 /* ----------------------- JUAN -----------------------------*/
 .juan .front {
 	background: url("../images/pictures/juan_front.jpg") no-repeat scroll 0 0 transparent;
@@ -323,6 +342,7 @@ a {
   margin-top: 6px;
   width: 71px;
 }
+/*
 .juan .left {
 	background: url("../images/pictures/juan_left.jpg") no-repeat scroll 0 0 transparent;
   float: left;
@@ -387,6 +407,7 @@ a {
   margin-top: 6px;
   width: 71px;
 }
+*/
 /* ----------------------- GORDO -----------------------------*/
 .gordo .front {
 	background: url("../images/pictures/gordo_front.jpg") no-repeat scroll 0 -10px transparent;
@@ -396,6 +417,7 @@ a {
   margin-top: 6px;
   width: 71px;
 }
+/*
 .gordo .left {
 	background: url("../images/pictures/gordo_left.jpg") no-repeat scroll 0 -10px transparent;
   float: left;
@@ -460,6 +482,7 @@ a {
   margin-top: 6px;
   width: 71px;
 }
+*/
 /* -------------------------- FERCHO ---------------------------- */
 .fernando .foto {
 	background: url("../images/fernando.jpg") no-repeat scroll 0 0 transparent;
@@ -478,6 +501,7 @@ a {
   margin-top: 6px;
   width: 71px;
 }
+/*
 .alejo .left {
 	background: url("../images/pictures/alejo_left.jpg") no-repeat scroll 0 0 transparent;
   float: left;
@@ -542,7 +566,7 @@ a {
   margin-top: 6px;
   width: 71px;
 }
-	
+*/
 .descripcion {
 	float: left;
   margin-left: 20px;

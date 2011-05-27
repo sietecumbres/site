@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	/*
 	$(document).mousemove(function(e){
 		
 		// Marco
@@ -539,6 +540,7 @@ $(document).ready(function(){
 		
 				
 	});
+	*/
 });
 
 function chooseButton(element, style){ 
