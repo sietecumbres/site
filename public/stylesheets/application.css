@@ -350,12 +350,17 @@ a {
 }
 #texto_construccion {
 	float: left;
-  margin-left: 36%;
+  margin-left: 31%;
   margin-top: 4%;
   width: 64%;
 }
 #texto_construccion h1 {
 	font-size: 48px;
   font-weight: lighter;
-  margin-left: 4%;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+#texto_construccion h3 {
+	font-size: 28px;
+  font-weight: lighter;
 }
