@@ -1,14 +1,71 @@
-#container
-  #header
-    .logo
-    .slogan
-      %h2 Aquí iría el slogan
-  #content
-    #slider
-    #contact-form
-      .title
-        %h1
-          CONTACTO
+#main-nav
+  #no-wrapper.container_10
+    #banksimple-logo
+    %ul
+      %li#skills-nav-btn
+        %a{:href => "#skills"} Qué hacemos
+      %li#team-nav-btn
+        %a{:href => "#team"} Equipo
+      %li#contact-nav-btn
+        %a{:href => "#contact"} Contacto
+#main-wrapper
+  .container_10
+    %section#skills.skills
+      .header
+        %h1 QUÉ HACEMOS
+      .slider
+    %section#team.team
+      .header
+        %h1 QUIENES SOMOS
+      %ul.team_list
+        %li
+          .descripcion
+            %img{:src => "../images/pictures/marco_front.jpg"}
+            %h3 Marco Emilio Montes Botero
+            %p Ingeniero de Sistemas y Telecomunicaciones de la Universidad de Manizales
+            %p 
+              %span Síqueme en 
+              %a{:alt => "Marco on LinkedIn", :href => ""} LinkedIn
+            %a{:alt => "Marco Montes", :href => "mailto:marcomontes@sietecumbres.com.co"} marcomontes@sietecumbres.com.co
+        %li
+          .descripcion
+            %img{:src => "../images/pictures/juan_front.jpg"}
+            %h3 Juan Guillermo Espinosa Betancur
+            %p Ingeniero de Sistemas y Telecomunicaciones de la Universidad de Manizales
+            %p 
+              %span Síqueme en
+              %a{:alt => "Juan Guillermo on LinkedIn", :href => ""} LinkedIn
+            %a{:alt => "Juan Guillermo", :href => "mailto:juanespinosa@sietecumbres.com.co"} juanespinosa@sietecumbres.com.co
+        %li
+          .descripcion
+            %img{:src => "../images/pictures/gordo_front.jpg"}
+            %h3 Andrés Felipe Toro Serna
+            %p Ingeniero Electrónico de la Universidad Nacional
+            %p 
+              %span Síqueme en
+              %a{:alt => "Andrés Felipe on LinkedIn", :href => ""} LinkedIn
+            %a{:alt => "Andrés Felipe", :href => "mailto:andrestoro@sietecumbres.com.co"} andrestoro@sietecumbres.com.co
+        %li
+          .descripcion
+            %img{:src => "../images/fernando.jpg"}
+            %h3 Fernando Montes Botero
+            %p Ingeniero de Sistemas y Computación de la Universidad de Caldas
+            %p 
+              %span Síqueme en
+              %a{:alt => "Fernando on LinkedIn", :href => ""} LinkedIn
+            %a{:alt => "Fernando", :href => "mailto:fernandomontes@sietecumbres.com.co"} fernandomontes@sietecumbres.com.co
+        %li
+          .descripcion
+            %img{:src => "../images/pictures/alejo_front.jpg"}
+            %h3 Alejandro Toro Serna
+            %p Ingeniero de Sistemas y Telecomunicaciones de la Universidad de Manizales
+            %p 
+              %span Síqueme en
+              %a{:alt => "Alejandro on LinkedIn", :href => "http://www.linkedin.com/pub/alejandro-toro-serna/34/953/a4"} LinkedIn
+            %a{:alt => "Alejandro", :href => "mailto:alejandrotoro@sietecumbres.com.co"} alejandrotoro@sietecumbres.com.co
+    %section#contact.contact
+      .header
+        %h1 CONTÁCTANOS
       .names    
         %p Nombre:
         %p E-Mail:
@@ -25,48 +82,3 @@
           .textarea
             %textarea.contactenos_textarea{:name => "text"}
           %input.contactenos_button{:onmouseout => "javascript:chooseButton(this, \'contactenos_button\')", :onmouseover => "javascript:chooseButton(this, \'contactenos_button_hover\')", :type => "submit", :value => ""}/
-    #who-we-are
-      .title
-        %h1
-          QUIENES SOMOS
-      %ul
-        %li.marco
-          #foto_marco.front
-          .descripcion
-            %h3
-              Marco Emilio Montes Botero
-            %p
-              Ingeniero de Sistemas y Telecomunicaciones de la Universidad de Manizales
-            %a{:alt => "Marco Montes", :href => "mailto:marcomontes@sietecumbres.com.co"} marcomontes@sietecumbres.com.co
-        %li.juan
-          #foto_juan.front
-          .descripcion
-            %h3
-              Juan Guillermo Espinosa Betancur
-            %p
-              Ingeniero de Sistemas y Telecomunicaciones de la Universidad de Manizales
-            %a{:alt => "Marco Montes", :href => "mailto:juanespinosa@sietecumbres.com.co"} juanespinosa@sietecumbres.com.co
-        %li.gordo
-          #foto_gordo.front
-          .descripcion
-            %h3
-              Andrés Felipe Toro Serna
-            %p
-              Ingeniero Electrónico de la Universidad Nacional
-            %a{:alt => "Marco Montes", :href => "mailto:andrestoro@sietecumbres.com.co"} andrestoro@sietecumbres.com.co
-        %li.fernando
-          .foto
-          .descripcion
-            %h3
-              Fernando Montes Botero
-            %p
-              Ingeniero de Sistemas y Computación de la Universidad de Caldas
-            %a{:alt => "Marco Montes", :href => "mailto:fernandomontes@sietecumbres.com.co"} fernandomontes@sietecumbres.com.co
-        %li.alejo
-          #foto_alejo.front
-          .descripcion
-            %h3
-              Alejandro Toro Serna
-            %p
-              Ingeniero de Sistemas y Telecomunicaciones de la Universidad de Manizales
-            %a{:alt => "Marco Montes", :href => "mailto:alejandrotoro@sietecumbres.com.co"} alejandrotoro@sietecumbres.com.co

@@ -9,5 +9,5 @@ configure do
 end
 
 get "/" do
-  haml :index, { :layout => :'layouts/application' }
+  haml :en_construccion, { :layout => :'layouts/application' }
 end

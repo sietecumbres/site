@@ -1,18 +1,5 @@
-/*
 body {
-	background: url("../images/en_construccion.png") no-repeat scroll center center transparent;
-  color: #000000;
-  font-family: Zag Regular,verdana,sans-serif;
-  font-size: 13px;
-  height: 800px;
-  margin: 0;
-  padding: 0;
-  width: 900px;
-}
-*/
-body {
-	/* background: url("../images/header.png") no-repeat scroll center top transparent; */
-	background: none repeat scroll 0 0 #E8EAE1;
+	background: none repeat scroll 0 0 #FFFFFF;
 	color: #000000;
 	font-family: Zag Regular,verdana,sans-serif;
 	font-size: 13px;
@@ -36,103 +23,8 @@ a {
   text-decoration: none;
   text-shadow: 0 1px 0 #FFFFFF;
 }
-#container {
-	width: 960px;
-	margin: 0 auto;
-	padding: 0px;
-}
-/* HEADER */
-#header {
-	background: url("../images/bg_header.png") no-repeat scroll center bottom transparent;
-  height: 170px;
-  margin: 0 auto;
-  padding: 15px 15px 0;
-}
-#header .logo {
-	background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 150px;
-  padding-right: 10px;
-  width: 21%;
-}
-#header .slogan {
-	float: left;
-  margin-top: 120px;
-  width: 75%;
-}
-#header .slogan h2 {
-	color: #F58220;
-  font-size: 26px;
-  font-weight: lighter;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-  text-align: right;
-}
-#header h1.header {
-	float: left;
-	font-size: 40px;
-	font-weight: bold;
-	margin-left: 150px;
-	margin-top: 35px;
-}
-/* CONTENT */
-#content {
-	margin: 0 auto;
-  padding: 0 0 0;
-  width: 960px;
-}
-/* SLIDER */
-#slider {
-	/* background: url("../images/slider.png") no-repeat scroll 0 0 transparent; */
-  float: left;
-  height: 302px;
-  width: 100%;
-}
-.big-img {
-	float: left;
-	height: 302px;
-	width: 598px;
-}
-.slider-list {
-	float: right;
-	height: 302px;
-	width: 362px;
-}
-.slider-list .list-img {
-	background: url("../images/item-slider.png") repeat scroll 0 0 transparent;
-	border-bottom: 1px solid #F4F4F4;
-  border-left: 1px solid #F4F4F4;
-  height: 99px;
-  width: 295px;
-}
-.slider-list .list-img-current {
-	background: url("../images/item-slider-current.png") no-repeat scroll 0 0 transparent;
-	height: 99px;
-	margin-left: -14px;
-	width: 310px;
-}
-.title {
-	float: left;
-  height: 67px;
-  text-align: center;
-  width: 100%;
-}
-.title h1 {
-	color: #FFFFFF;
-  font-size: 30px;
-  font-weight: lighter;
-  margin-top: 20px;
-  text-shadow: 1.3px -1px 0 #000000;
-}
+
 /* CONTACT */
-#contact-form {
-	background: url("../images/bg_contacto.png") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 537px;
-  margin-right: 30px;
-  margin-top: 20px;
-  width: 465px;
-}
 .names {
 	background: url("../images/bg_separator.png") repeat-y scroll right 0 transparent;
   float: left;
@@ -245,21 +137,8 @@ a {
   margin-top: 20px;
   width: 150px !important;
 }
-/* CONTACT */
-#who-we-are {
-	background: url("../images/bg_who_we_are.png") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 550px;
-  margin-top: 20px;
-  width: 465px;
-}
-#who-we-are li {
-	float: left;
-  height: 94px;
-  width: 100%;
-}
 /* ----------------------- MARCO -----------------------------*/
-.marco .front {
+#foto_marco {
 	background: url("../images/pictures/marco_front.jpg") no-repeat scroll 0 0 transparent;
   float: left;
   height: 80px;
@@ -267,74 +146,8 @@ a {
   margin-top: 6px;
   width: 71px;
 }
-/*
-.marco .left {
-	background: url("../images/pictures/marco_left.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.marco .right {
-	background: url("../images/pictures/marco_right.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.marco .up {
-	background: url("../images/pictures/marco_up.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.marco .down {
-	background: url("../images/pictures/marco_down.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.marco .top_left {
-	background: url("../images/pictures/marco_top_left.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.marco .top_right {
-	background: url("../images/pictures/marco_top_right.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.marco .down_left {
-	background: url("../images/pictures/marco_down_left.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.marco .down_right {
-	background: url("../images/pictures/marco_down_right.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-*/
 /* ----------------------- JUAN -----------------------------*/
-.juan .front {
+#foto_juan {
 	background: url("../images/pictures/juan_front.jpg") no-repeat scroll 0 0 transparent;
   float: left;
   height: 80px;
@@ -342,74 +155,8 @@ a {
   margin-top: 6px;
   width: 71px;
 }
-/*
-.juan .left {
-	background: url("../images/pictures/juan_left.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.juan .right {
-	background: url("../images/pictures/juan_right.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.juan .up {
-	background: url("../images/pictures/juan_up.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.juan .down {
-	background: url("../images/pictures/juan_down.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.juan .top_left {
-	background: url("../images/pictures/juan_top_left.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.juan .top_right {
-	background: url("../images/pictures/juan_top_right.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.juan .down_left {
-	background: url("../images/pictures/juan_down_left.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.juan .down_right {
-	background: url("../images/pictures/juan_down_right.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-*/
 /* ----------------------- GORDO -----------------------------*/
-.gordo .front {
+#foto_gordo {
 	background: url("../images/pictures/gordo_front.jpg") no-repeat scroll 0 -10px transparent;
   float: left;
   height: 80px;
@@ -417,74 +164,8 @@ a {
   margin-top: 6px;
   width: 71px;
 }
-/*
-.gordo .left {
-	background: url("../images/pictures/gordo_left.jpg") no-repeat scroll 0 -10px transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.gordo .right {
-	background: url("../images/pictures/gordo_right.jpg") no-repeat scroll 0 -10px transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.gordo .up {
-	background: url("../images/pictures/gordo_up.jpg") no-repeat scroll 0 -10px transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.gordo .down {
-	background: url("../images/pictures/gordo_down.jpg") no-repeat scroll 0 -10px transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.gordo .top_left {
-	background: url("../images/pictures/gordo_top_left.jpg") no-repeat scroll 0 -10px transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.gordo .top_right {
-	background: url("../images/pictures/gordo_top_right.jpg") no-repeat scroll 0 -10px transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.gordo .down_left {
-	background: url("../images/pictures/gordo_down_left.jpg") no-repeat scroll 0 -10px transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.gordo .down_right {
-	background: url("../images/pictures/gordo_down_right.jpg") no-repeat scroll 0 -10px transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-*/
 /* -------------------------- FERCHO ---------------------------- */
-.fernando .foto {
+#foto_fercho {
 	background: url("../images/fernando.jpg") no-repeat scroll 0 0 transparent;
   float: left;
   height: 80px;
@@ -493,7 +174,7 @@ a {
   width: 71px;
 }
 /* ----------------------- ALEJO -----------------------------*/
-.alejo .front {
+#foto_alejo {
 	background: url("../images/pictures/alejo_front.jpg") no-repeat scroll 0 0 transparent;
   float: left;
   height: 80px;
@@ -501,89 +182,180 @@ a {
   margin-top: 6px;
   width: 71px;
 }
-/*
-.alejo .left {
-	background: url("../images/pictures/alejo_left.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.alejo .right {
-	background: url("../images/pictures/alejo_right.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.alejo .up {
-	background: url("../images/pictures/alejo_up.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.alejo .down {
-	background: url("../images/pictures/alejo_down.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.alejo .top_left {
-	background: url("../images/pictures/alejo_top_left.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.alejo .top_right {
-	background: url("../images/pictures/alejo_top_right.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.alejo .down_left {
-	background: url("../images/pictures/alejo_down_left.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-.alejo .down_right {
-	background: url("../images/pictures/alejo_down_right.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
-}
-*/
+
 .descripcion {
 	float: left;
   margin-left: 20px;
   margin-top: 10px;
-  width: 330px;
+  width: 90%;
 }
 .descripcion h3 {
-	color: #000000;
-  font-size: 16px;
+	color: #F58220;
+  font-size: 20px;
   font-weight: lighter;
   letter-spacing: 1.5px;
   margin-bottom: 10px;
-  text-shadow: 1px 1px 0 #FFFFFF;
+  margin-top: 5px;
 }
 .descripcion p {
 	color: #000000;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: lighter;
+  margin-bottom: 5px;
   text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+/* NAV */
+
+#main-nav {
+	background: none repeat scroll 0 0 #FFFFFF;
+  border-left: 4px solid #FACCA5;
+  border-right: 1px solid #FACCA5;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  display: block;
+  float: left;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 150px;
+  z-index: 2000;
+}
+#main-nav #banksimple-logo {
+	background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
+  display: inline-block;
+  height: 96px;
+  left: 15px;
+  position: absolute;
+  text-indent: -1000px;
+  top: 50px;
+  width: 120px;
+}
+.container_10 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+#main-nav ul {
+	display: inline-block;
+  float: right;
+  position: absolute;
+  top: 300px;
+}
+#main-nav li {
+	float: left;
+}
+#main-nav li a {
+	color: #F58220;
+  display: block;
+  font-family: "Zag Regular",verdana,serif;
+  font-size: 18px;
+  line-height: 56px;
+  padding: 0 15px;
+  text-decoration: none;
+  text-shadow: 0 1px white;
+  white-space: nowrap;
+}
+#main-nav a:hover {
+    border-left: 5px solid #F58220;
+    color: #CB4F00;
+    font-weight: 500;
+    margin-left: -5px;
+}
+#main-nav .active {
+    border-left: 5px solid #F58220;
+    color: #CB4F00;
+    font-weight: 500;
+    margin-left: -5px;
+}
+
+/* MAIN */
+
+#main-wrapper {
+	background: none repeat scroll 0 0 #FFFFFF;
+  clear: both;
+  float: left;
+  min-height: 600px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+.container_10 .grid_10 {
+	width: 780px;
+}
+.header {
+	background: url("../images/bg_header.png") no-repeat scroll center 42px transparent;
+  float: left;
+  height: 50px;
+  margin-bottom: 10px;
+  width: 800px;
+}
+.header h1 {
+	font-size: 30px;
+  font-weight: lighter;
+  margin-left: 20px;
+}
+
+/* QUE HACEMOS */
+
+.skills {
+	float: left;
+  height: 500px;
+  margin-top: 50px;
+}
+#skills .slider {
+  float: left;
+  height: 302px;
+  width: 800px;
+}
+
+/* TEAM */
+
+.team {
+	float: left;
+  min-height: 500px;
+  margin-top: 50px;
+}
+.team_list {
+	float: left;
+	width: 100%;
+}
+.team_list li {
+	float: left;
+	width: 50%;
+}
+.team img {
+	float: left;
+  height: 116px;
+  margin-right: 10px;
+  width: 71px;
+}
+
+/* CONTACTO */
+
+.contacto {
+	float: left;
+  min-height: 500px;
+  margin-top: 50px;
+}
+
+/* EN CONSTRUCCION */
+
+#logo_construccion {
+	background: url("../images/logo_construccion.png") no-repeat scroll 0 0 transparent;
+  float: left;
+  height: 300px;
+  margin-left: 34%;
+  margin-top: 5%;
+  width: 66%;
+}
+#texto_construccion {
+	float: left;
+  margin-left: 36%;
+  margin-top: 4%;
+  width: 64%;
+}
+#texto_construccion h1 {
+	font-size: 48px;
+  font-weight: lighter;
+  margin-left: 4%;
 }
