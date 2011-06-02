@@ -304,13 +304,37 @@ a {
 	padding-top: 30px;
 }
 #skills .slider {
-	background: none repeat scroll 0 0 #CCCCCC;
+	background: url("../images/bg_slider.png") no-repeat scroll 0 0 transparent;
+  border: 1px solid #CCCCCC;
   float: left;
   height: 302px;
   margin-top: 20px;
+  position: relative;
   width: 800px;
 }
-
+.slider .text {
+  bottom: 2%;
+  left: 5%;
+  min-height: 60px;
+  position: absolute;
+  width: 50%;
+}
+.slider .text p {
+	font-size: 18px;
+  padding: 10px;
+  text-align: left;
+  text-shadow: 0 1px 0 #D0CFCB;
+}
+.slider .desarrollo {
+	background: url("../images/desarrollo.png") repeat scroll -120px -40px transparent;
+  float: left;
+  height: 206px;
+  left: 100px;
+  position: absolute;
+  top: 10px;
+  width: 300px;
+  z-index: 0;
+}
 /* TEAM */
 
 .team {
