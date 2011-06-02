@@ -142,9 +142,6 @@ section p:last-child {
     text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
     width: 38px;
 }
-section:last-child {
-    margin-bottom: 120px;
-}
 h2 {
     font-family: "museo-slab-1","museo-slab-2",Georgia,"Times New Roman",serif;
 }

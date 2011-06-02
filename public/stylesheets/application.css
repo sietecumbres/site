@@ -299,12 +299,15 @@ a {
 
 .skills {
 	float: left;
-  height: 500px;
+  height: 600px;
   margin-top: 50px;
+	padding-top: 30px;
 }
 #skills .slider {
+	background: none repeat scroll 0 0 #CCCCCC;
   float: left;
   height: 302px;
+  margin-top: 20px;
   width: 800px;
 }
 
@@ -312,8 +315,9 @@ a {
 
 .team {
 	float: left;
-  min-height: 500px;
+  min-height: 600px;
   margin-top: 50px;
+	padding-top: 30px;
 }
 .team_list {
 	float: left;
@@ -332,10 +336,11 @@ a {
 
 /* CONTACTO */
 
-.contacto {
+.contact {
 	float: left;
-  min-height: 500px;
   margin-top: 50px;
+  min-height: 640px;
+  padding-top: 30px;
 }
 
 /* EN CONSTRUCCION */
@@ -363,4 +368,17 @@ a {
 #texto_construccion h3 {
 	font-size: 28px;
   font-weight: lighter;
+}
+
+/* ARROW */
+
+#arrow {
+	background: url("../images/arrow.png") no-repeat scroll 0 0 transparent;
+  height: 10px;
+  left: 153px;
+  padding: 0 !important;
+  position: fixed;
+  top: 325px;
+  width: 10px;
+  z-index: 2000;
 }
