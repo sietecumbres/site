@@ -453,13 +453,13 @@ a:hover {
     width: 100%;
     display: none; /*--Hide description by default, if js is enabled, we will show this--*/
 }
-.main_image .block{
+.main_image .block {
 	background: none repeat scroll 0 0 #AAAAAA;
   border-top: 1px solid #AAAAAA;
   width: 100%;
 }
 .main_image a.collapse { /*--This is our hide/show tab--*/
-    background: url(btn_collapse.gif) no-repeat left top;
+    background: url("../images/show_hide.png") no-repeat scroll left bottom transparent;
     height: 27px;
     width: 93px;
     text-indent: -99999px;
@@ -467,7 +467,9 @@ a:hover {
     top: -27px;
     right: 20px;
 }
-.main_image a.show {background-position: left bottom;}
+.main_image a.show {
+	background-position: left top;
+}
 
 .image_thumb {
 	background: none repeat scroll 0 0 #F0F0F0;

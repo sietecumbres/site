@@ -37,6 +37,10 @@ $(document).ready(function(){
 	    //Show active list-item
 	    $(".image_thumb ul li").removeClass('active'); //Remove class of 'active' on all list-items
 	    $(this).addClass('active');  //Add class of 'active' on the selected list
+	
+			$("a.collapse").toggleClass("show");
+			$(".desc .block").slideToggle();
+				
 	    return false;
 
 	}) .hover(function(){ //Hover effects on list-item
@@ -45,10 +49,21 @@ $(document).ready(function(){
 	    $(this).removeClass('hover'); //Remove class "hover" on hover out
 	});
 	
+	$(".desc .block").show();
+	$("a.collapse").show();
+
+	$('a.collapse').click(function(){
+		$("a.collapse").toggleClass("show");
+		$(".desc .block").slideToggle();
+	});
+	
+	/*
 	$("a.collapse").click(function(){
 	    $(".main_banner .block").slideToggle(); //Toggle the description (slide up and down)
 	    $("a.collapse").toggleClass("show"); //Toggle the class name of "show" (the hide/show tab)
 	});
+	*/
+	
 	/*
 	$(document).mousemove(function(e){
 		
