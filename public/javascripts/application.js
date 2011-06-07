@@ -38,8 +38,8 @@ $(document).ready(function(){
 	    $(".image_thumb ul li").removeClass('active'); //Remove class of 'active' on all list-items
 	    $(this).addClass('active');  //Add class of 'active' on the selected list
 	
-			$("a.collapse").toggleClass("show");
-			$(".desc .block").slideToggle();
+			$(".desc .block").show();
+			$("a.collapse").removeClass("show");
 				
 	    return false;
 
