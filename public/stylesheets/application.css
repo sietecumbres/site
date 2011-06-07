@@ -187,7 +187,6 @@ a:hover {
   margin-top: 6px;
   width: 71px;
 }
-
 .descripcion {
 	float: left;
   margin-left: 20px;
@@ -364,9 +363,9 @@ a:hover {
 }
 .team img {
 	float: left;
-  height: 116px;
+  height: 108px;
   margin-right: 10px;
-  width: 71px;
+  width: 100px;
 }
 
 /* CONTACTO */
