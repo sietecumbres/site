@@ -1,523 +1,473 @@
 body {
-	background: none repeat scroll 0 0 #FFFFFF;
-	color: #000000;
-	font-family: Zag Regular,verdana,sans-serif;
-	font-size: 13px;
-	margin: 0;
-	padding: 0;
+	background : #ffffff none repeat scroll 0% 0%;
+	color : #000000;
+	font-family : Zag Regular, verdana, sans-serif;
+	font-size : 13px;
+	margin : 0;
+	padding : 0;
 }
 * {
-	margin:0;
-	padding:0;
+	margin : 0;
+	padding : 0;
 }
 h1 {
-	color: #F58220;
+	color : #f58220;
 }
 ul {
-	list-style: none outside none;
+	list-style : none;
 }
 a {
-	color: #F58220;
-  font-size: 13px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  text-shadow: 0 1px 0 #FFFFFF;
+	color : #f58220;
+	font-size : 13px;
+	letter-spacing : 1px;
+	text-decoration : none;
 }
 a:hover {
-	color: #CB4F00 !important;
-  text-decoration: underline;
-  text-shadow: 0 1px 0 #FFFFFF;
+	color : #cb4f00 !important ;
+	text-decoration : underline;
 }
-
-/* CONTACT */
 .names {
-	background: url("../images/bg_separator.png") repeat-y scroll right 0 transparent;
-  float: left;
-  height: 250px;
-  margin-left: 35px;
-  margin-top: 50px;
-  padding-right: 10px;
-  padding-top: 100px;
-  width: 15%;
+	background : transparent url("../images/bg_separator.png") repeat-y scroll right 0%;
+	float : left;
+	height : 250px;
+	margin-left : 35px;
+	margin-top : 50px;
+	padding-right : 10px;
+	padding-top : 100px;
+	width : 15%;
 }
 .names p {
-	color: #747679;
-  float: left;
-  font-size: 15px;
-  padding-top: 25px;
-  text-align: right;
-  text-shadow: 0 1px 0 #FFFFFF;
-  width: 100%;
+	color : #747679;
+	float : left;
+	font-size : 15px;
+	padding-top : 25px;
+	text-align : right;
+	width : 100%;
 }
 .form {
-	float: left;
-  margin-left: 20px;
-  margin-top: 50px;
-  width: 60%;
+	float : left;
+	margin-left : 20px;
+	margin-top : 50px;
+	width : 60%;
 }
 .form p {
-	color: #000000;
-  font-size: 14px;
-  font-weight: lighter;
-  text-shadow: 1px 1px 0 #FFFFFF;
+	color : #000000;
+	font-size : 14px;
+	font-weight : lighter;
 }
 .form .text {
-	float: left;
-  margin-bottom: 25px;
-  width: 87%;
+	float : left;
+	margin-bottom : 25px;
+	width : 87%;
 }
 .form .text h2 {
-	color: #000000;
-  font-size: 24px;
-  font-weight: lighter;
-  margin-bottom: 15px;
-  text-shadow: 1px 1px 0 #FFFFFF;
+	color : #000000;
+	font-size : 24px;
+	font-weight : lighter;
+	margin-bottom : 15px;
 }
 .form .text p {
-	font-size: 14px;
-  letter-spacing: 0.5px;
-  margin-bottom: 10px;
-  text-align: justify;
-  width: 100%;
+	font-size : 14px;
+	letter-spacing : 0.5px;
+	margin-bottom : 10px;
+	text-align : justify;
+	width : 100%;
 }
 .form p {
-	float: left;
-  width: 37%;
+	float : left;
+	width : 37%;
 }
 .form input {
-	-moz-border-bottom-colors: none;
-  -moz-border-image: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background-color: #EEEEEE;
-  border-color: #BEBEBE #FFFFFF #FFFFFF #BEBEBE;
-  border-style: solid;
-  border-width: 1px;
-  float: left;
-  height: 30px;
-  width: 100%;
+	background-color : #eeeeee;
+	border-color : #bebebe #ffffff #ffffff #bebebe;
+	border-style : solid;
+	border-width : 1px;
+	float : left;
+	height : 30px;
+	width : 100%;
 }
 .form textarea {
-	-moz-border-bottom-colors: none;
-  -moz-border-image: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  background-color: #EEEEEE;
-  border-color: #BEBEBE #FFFFFF #FFFFFF #BEBEBE;
-  border-style: solid;
-  border-width: 1px;
-  float: left;
-  height: 80px;
-  width: 100%;
+	background-color : #eeeeee;
+	border-color : #bebebe #ffffff #ffffff #bebebe;
+	border-style : solid;
+	border-width : 1px;
+	float : left;
+	height : 80px;
+	width : 100%;
 }
 .form .field {
-	float: left;
-  margin-top: 10px;
-  width: 100%;
+	float : left;
+	margin-top : 10px;
+	width : 100%;
 }
 .form .textarea {
-	float: left;
-  margin-top: 10px;
-  width: 100%;
+	float : left;
+	margin-top : 10px;
+	width : 100%;
 }
-
 .contactenos_button {
-	background: url("../images/btn_send.png") no-repeat scroll left top transparent;
-  border: 0 none !important;
-  display: block;
-  float: right !important;
-  margin-right: 73px;
-  margin-top: 20px;
-  width: 150px !important;
+	background : transparent url("../images/btn_send.png") no-repeat scroll left top;
+	border : 0 none !important ;
+	display : block;
+	float : right !important ;
+	margin-right : 73px;
+	margin-top : 20px;
+	width : 150px !important ;
 }
 .contactenos_button_hover {
-	background: url("../images/btn_send.png") no-repeat scroll left top transparent;
-	background-position:0 -30px;
-  border: 0 none !important;
-  display: block;
-  float: right !important;
-  margin-right: 73px;
-  margin-top: 20px;
-  width: 150px !important;
+	background : transparent url("../images/btn_send.png") no-repeat scroll left top;
+	background-position : 0% -30px;
+	border : 0 none !important ;
+	display : block;
+	float : right !important ;
+	margin-right : 73px;
+	margin-top : 20px;
+	width : 150px !important ;
 }
-/* ----------------------- MARCO -----------------------------*/
 #foto_marco {
-	background: url("../images/pictures/marco_front.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
+	background : transparent url("../images/pictures/marco_front.jpg") no-repeat scroll 0% 0%;
+	float : left;
+	height : 80px;
+	margin-left : 20px;
+	margin-top : 6px;
+	width : 71px;
 }
-/* ----------------------- JUAN -----------------------------*/
 #foto_juan {
-	background: url("../images/pictures/juan_front.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
+	background : transparent url("../images/pictures/juan_front.jpg") no-repeat scroll 0% 0%;
+	float : left;
+	height : 80px;
+	margin-left : 20px;
+	margin-top : 6px;
+	width : 71px;
 }
-/* ----------------------- GORDO -----------------------------*/
 #foto_gordo {
-	background: url("../images/pictures/gordo_front.jpg") no-repeat scroll 0 -10px transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
+	background : transparent url("../images/pictures/gordo_front.jpg") no-repeat scroll 0% -10px;
+	float : left;
+	height : 80px;
+	margin-left : 20px;
+	margin-top : 6px;
+	width : 71px;
 }
-/* -------------------------- FERCHO ---------------------------- */
 #foto_fercho {
-	background: url("../images/fernando.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
+	background : transparent url("../images/fernando.jpg") no-repeat scroll 0% 0%;
+	float : left;
+	height : 80px;
+	margin-left : 20px;
+	margin-top : 6px;
+	width : 71px;
 }
-/* ----------------------- ALEJO -----------------------------*/
 #foto_alejo {
-	background: url("../images/pictures/alejo_front.jpg") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 80px;
-  margin-left: 20px;
-  margin-top: 6px;
-  width: 71px;
+	background : transparent url("../images/pictures/alejo_front.jpg") no-repeat scroll 0% 0%;
+	float : left;
+	height : 80px;
+	margin-left : 20px;
+	margin-top : 6px;
+	width : 71px;
 }
 .descripcion {
-	float: left;
-  margin-left: 20px;
-  margin-top: 10px;
-  width: 90%;
+	float : left;
+	margin-left : 20px;
+	margin-top : 10px;
+	width : 90%;
 }
 .descripcion h3 {
-	color: #F58220;
-  font-size: 20px;
-  font-weight: lighter;
-  letter-spacing: 1.5px;
-  margin-bottom: 10px;
-  margin-top: 5px;
+	color : #f58220;
+	font-size : 20px;
+	font-weight : lighter;
+	letter-spacing : 1.5px;
+	margin-bottom : 10px;
+	margin-top : 5px;
 }
 .descripcion p {
-	color: #000000;
-  font-size: 16px;
-  font-weight: lighter;
-  margin-bottom: 5px;
-  text-shadow: 1px 1px 0 #FFFFFF;
+	color : #000000;
+	font-size : 16px;
+	font-weight : lighter;
+	margin-bottom : 5px;
 }
 .descripcion a {
-	color: #f58220;
-  font-size: 16px;
-  font-weight: lighter;
-  text-shadow: 1px 1px 0 #FFFFFF;
+	color : #f58220;
+	font-size : 16px;
+	font-weight : lighter;
 }
-
-/* NAV */
-
 #main-nav {
-	background: none repeat scroll 0 0 #FFFFFF;
-  border-left: 4px solid #FACCA5;
-  border-right: 1px solid #FACCA5;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-  display: block;
-  float: left;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  width: 150px;
-  z-index: 2000;
+	background : #ffffff none repeat scroll 0% 0%;
+	border-left : 4px solid #facca5;
+	border-right : 1px solid #facca5;
+	display : block;
+	float : left;
+	height : 100%;
+	position : fixed;
+	top : 0;
+	width : 150px;
+	z-index : 2000;
 }
 #main-nav #banksimple-logo {
-	background: url("../images/logo.png") no-repeat scroll 0 0 transparent;
-  display: inline-block;
-  height: 96px;
-  left: 15px;
-  position: absolute;
-  text-indent: -1000px;
-  top: 50px;
-  width: 120px;
+	background : transparent url("../images/logo.png") no-repeat scroll 0% 0%;
+	display : inline-block;
+	height : 96px;
+	left : 15px;
+	position : absolute;
+	text-indent : -1000px;
+	top : 50px;
+	width : 120px;
 }
 .container_10 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 800px;
+	margin-left : auto;
+	margin-right : auto;
+	width : 800px;
 }
 #main-nav ul {
-	display: inline-block;
-  float: right;
-  position: absolute;
-  top: 300px;
+	display : inline-block;
+	float : right;
+	position : absolute;
+	top : 300px;
 }
 #main-nav li {
-	float: left;
+	float : left;
 }
 #main-nav li a {
-	color: #F58220;
-  display: block;
-  font-family: "Zag Regular",verdana,serif;
-  font-size: 18px;
-  line-height: 56px;
-  padding: 0 15px;
-  text-decoration: none;
-  text-shadow: 0 1px white;
-  white-space: nowrap;
+	color : #f58220;
+	display : block;
+	font-family : "Zag Regular", verdana, serif;
+	font-size : 18px;
+	line-height : 56px;
+	padding : 0 15px;
+	text-decoration : none;
+	white-space : nowrap;
 }
 #main-nav a:hover {
-    border-left: 5px solid #F58220;
-    color: #CB4F00;
-    font-weight: 500;
-    margin-left: -5px;
+	border-left : 5px solid #f58220;
+	color : #cb4f00;
+	font-weight : 500;
+	margin-left : -5px;
 }
 #main-nav .active {
-    border-left: 5px solid #F58220;
-    color: #CB4F00;
-    font-weight: 500;
-    margin-left: -5px;
+	border-left : 5px solid #f58220;
+	color : #cb4f00;
+	font-weight : 500;
+	margin-left : -5px;
 }
-
-/* MAIN */
-
 #main-wrapper {
-	background: none repeat scroll 0 0 #FFFFFF;
-  clear: both;
-  float: left;
-  min-height: 600px;
-  position: relative;
-  width: 100%;
-  z-index: 10;
+	background : #ffffff none repeat scroll 0% 0%;
+	clear : both;
+	float : left;
+	min-height : 600px;
+	position : relative;
+	width : 100%;
+	z-index : 10;
 }
 .container_10 .grid_10 {
-	width: 780px;
+	width : 780px;
 }
 .header {
-	background: url("../images/bg_header.png") no-repeat scroll center 42px transparent;
-  float: left;
-  height: 50px;
-  margin-bottom: 10px;
-  width: 800px;
+	background : transparent url("../images/bg_header.png") no-repeat scroll center 42px;
+	float : left;
+	height : 50px;
+	margin-bottom : 10px;
+	width : 800px;
 }
 .header h1 {
-	font-size: 30px;
-  font-weight: lighter;
-  margin-left: 20px;
+	font-size : 30px;
+	font-weight : lighter;
+	margin-left : 20px;
 }
-
-/* QUE HACEMOS */
-
 .skills {
-	float: left;
-  height: 600px;
-  margin-top: 50px;
-	padding-top: 30px;
+	float : left;
+	height : 600px;
+	margin-top : 50px;
+	padding-top : 30px;
 }
 #skills .slider {
-	background: url("../images/bg_slider.png") no-repeat scroll 0 0 transparent;
-  border: 1px solid #CCCCCC;
-  float: left;
-  height: 302px;
-  margin-top: 20px;
-  position: relative;
-  width: 800px;
+	background : transparent url("../images/bg_slider.png") no-repeat scroll 0% 0%;
+	border : 1px solid #cccccc;
+	float : left;
+	height : 302px;
+	margin-top : 20px;
+	position : relative;
+	width : 800px;
 }
 .slider .text {
-  bottom: 2%;
-  left: 5%;
-  min-height: 60px;
-  position: absolute;
-  width: 50%;
+	bottom : 2%;
+	left : 5%;
+	min-height : 60px;
+	position : absolute;
+	width : 50%;
 }
 .slider .text p {
-	font-size: 18px;
-  padding: 10px;
-  text-align: left;
-  text-shadow: 0 1px 0 #D0CFCB;
+	font-size : 18px;
+	padding : 10px;
+	text-align : left;
 }
 .slider .desarrollo {
-	/*background: url("../images/desarrollo.png") repeat scroll -120px -40px transparent;*/
-  float: left;
-  height: 206px;
-  left: 100px;
-  position: absolute;
-  top: 10px;
-  width: 300px;
-  z-index: 0;
+	float : left;
+	height : 206px;
+	left : 100px;
+	position : absolute;
+	top : 10px;
+	width : 300px;
+	z-index : 0;
 }
-/* TEAM */
-
 .team {
-	float: left;
-  min-height: 600px;
-  margin-top: 50px;
-	padding-top: 30px;
+	float : left;
+	min-height : 600px;
+	margin-top : 50px;
+	padding-top : 30px;
 }
 .team_list {
-	float: left;
-	width: 100%;
+	float : left;
+	width : 100%;
 }
 .team_list li {
-	float: left;
-	width: 50%;
+	float : left;
+	width : 50%;
 }
 .team img {
-	float: left;
-  height: 108px;
-  margin-right: 10px;
-  width: 100px;
+	float : left;
+	height : 108px;
+	margin-right : 10px;
+	width : 100px;
 }
-
-/* CONTACTO */
-
 .contact {
-	float: left;
-  margin-top: 50px;
-  min-height: 640px;
-  padding-top: 30px;
+	float : left;
+	margin-top : 50px;
+	min-height : 640px;
+	padding-top : 30px;
 }
-
-/* EN CONSTRUCCION */
-
 #logo_construccion {
-	background: url("../images/logo_construccion.png") no-repeat scroll 0 0 transparent;
-  float: left;
-  height: 300px;
-  margin-left: 34%;
-  margin-top: 5%;
-  width: 66%;
+	background : transparent url("../images/logo_construccion.png") no-repeat scroll 0% 0%;
+	float : left;
+	height : 300px;
+	margin-left : 34%;
+	margin-top : 5%;
+	width : 66%;
 }
 #texto_construccion {
-	float: left;
-  margin-left: 31%;
-  margin-top: 4%;
-  width: 64%;
+	float : left;
+	margin-left : 31%;
+	margin-top : 4%;
+	width : 64%;
 }
 #texto_construccion h1 {
-	font-size: 48px;
-  font-weight: lighter;
-  margin-bottom: 20px;
-  margin-left: 70px;
+	font-size : 48px;
+	font-weight : lighter;
+	margin-bottom : 20px;
+	margin-left : 70px;
 }
 #texto_construccion h3 {
-	font-size: 28px;
-  font-weight: lighter;
+	font-size : 28px;
+	font-weight : lighter;
 }
-
-/* ARROW */
-
 #arrow {
-	background: url("../images/arrow.png") no-repeat scroll 0 0 transparent;
-  display: none;
-  height: 10px;
-  left: 153px;
-  padding: 0 !important;
-  position: fixed;
-  top: 325px;
-  width: 10px;
-  z-index: 2000;
+	background : transparent url("../images/arrow.png") no-repeat scroll 0% 0%;
+	display : none;
+	height : 10px;
+	left : 153px;
+	padding : 0 !important ;
+	position : fixed;
+	top : 325px;
+	width : 10px;
+	z-index : 2000;
 }
-
-/* SLIDER */
-
 .main_image {
-	background: none repeat scroll 0 0 #CCCCCC;
-  color: #FFFFFF;
-  float: left;
-  height: 301px;
-  overflow: hidden;
-  position: relative;
-  width: 550px;
+	background : #cccccc none repeat scroll 0% 0%;
+	color : #ffffff;
+	float : left;
+	height : 301px;
+	overflow : hidden;
+	position : relative;
+	width : 550px;
 }
 .main_image h2 {
-	font-size: 2em;
-  font-weight: normal;
-  padding: 10px;
+	font-size : 2em;
+	font-weight : normal;
+	padding : 10px;
 }
 .main_image p {
-	font-size: 1.2em;
-  line-height: 1em;
-  margin: 0;
-  padding: 0 10px 10px;
+	font-size : 1.2em;
+	line-height : 1em;
+	margin : 0;
+	padding : 0 10px 10px;
 }
-.block small { /*--We'll be using this same style on our thumbnail list--*/
-    font-size: 1em;
-    padding: 0 0 0 20px;
-    background: url(icon_calendar.gif) no-repeat 0 center;
+.block small {
+	font-size : 1em;
+	padding : 0 0 0 20px;
+	background : url(icon_calendar.gif) no-repeat 0% center;
 }
-.main_image .block small {margin-left: 10px;}
-.main_image .desc{
-    position: absolute;
-    bottom: 0;
-    left: 0; /*--Stick the desc class to the bottom of our main image container--*/
-    width: 100%;
-    display: none; /*--Hide description by default, if js is enabled, we will show this--*/
+.main_image .block small {
+	margin-left : 10px;
+}
+.main_image .desc {
+	position : absolute;
+	bottom : 0;
+	left : 0;
+	width : 100%;
+	display : none;
 }
 .main_image .block {
-	background: none repeat scroll 0 0 #AAAAAA;
-  border-top: 1px solid #AAAAAA;
-  width: 100%;
+	background : #aaaaaa none repeat scroll 0% 0%;
+	border-top : 1px solid #aaaaaa;
+	width : 100%;
 }
-.main_image a.collapse { /*--This is our hide/show tab--*/
-    background: url("../images/show_hide.png") no-repeat scroll left bottom transparent;
-    height: 27px;
-    width: 93px;
-    text-indent: -99999px;
-    position: absolute;
-    top: -27px;
-    right: 20px;
+.main_image a.collapse {
+	background : transparent url("../images/show_hide.png") no-repeat scroll left bottom;
+	height : 27px;
+	width : 93px;
+	text-indent : -99999px;
+	position : absolute;
+	top : -27px;
+	right : 20px;
 }
 .main_image a.show {
-	background-position: left top;
+	background-position : left top;
 }
-
 .image_thumb {
-	background: none repeat scroll 0 0 #F0F0F0;
-  border-right: 1px solid #FFFFFF;
-  border-top: 1px solid #CCCCCC;
-  float: left;
-  width: 249px;
+	background : #f0f0f0 none repeat scroll 0% 0%;
+	border-right : 1px solid #ffffff;
+	border-top : 1px solid #cccccc;
+	float : left;
+	width : 249px;
 }
 .image_thumb img {
-    border: 1px solid #ccc;
-    padding: 5px;
-    background: #fff;
-    float: left;
+	border : 1px solid #ccc;
+	padding : 5px;
+	background : #fff;
+	float : left;
 }
 .image_thumb ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+	margin : 0;
+	padding : 0;
+	list-style : none;
 }
-.image_thumb ul li{
-	background: url("nav_a.gif") repeat-x scroll 0 0 #F0F0F0;
-  border-bottom: 1px solid #CCCCCC;
-  border-right: 1px solid #CCCCCC;
-  border-top: 1px solid #FFFFFF;
-  float: left;
-  height: 49px;
-  margin: 0;
-  padding: 12px 10px;
-  width: 229px;
+.image_thumb ul li {
+	background : #f0f0f0 url("nav_a.gif") repeat-x scroll 0% 0%;
+	border-bottom : 1px solid #cccccc;
+	border-right : 1px solid #cccccc;
+	border-top : 1px solid #ffffff;
+	float : left;
+	height : 49px;
+	margin : 0;
+	padding : 12px 10px;
+	width : 229px;
 }
-.image_thumb ul li.hover { /*--Hover State--*/
-    background: #ddd;
-    cursor: pointer;
+.image_thumb ul li.hover {
+	background : #ddd;
+	cursor : pointer;
 }
-.image_thumb ul li.active { /*--Active State--*/
-    background: #fff;
-    cursor: default;
+.image_thumb ul li.active {
+	background : #fff;
+	cursor : default;
 }
 html .image_thumb ul li h2 {
-    font-size: 1.5em;
-    margin: 5px 0;
-    padding: 0;
+	font-size : 1.5em;
+	margin : 5px 0;
+	padding : 0;
 }
 .image_thumb ul li .block {
-    float: left;
-    margin-left: 10px;
-    padding: 0;
-    width: 170px;
+	float : left;
+	margin-left : 10px;
+	padding : 0;
+	width : 170px;
 }
-.image_thumb ul li p{display: none;}/*--Hide the description on the list items--*/
-
+.image_thumb ul li p {
+	display : none;
+}
